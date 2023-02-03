@@ -1,0 +1,27 @@
+[submodule "target/gecko_sdk"]
+	path = target/gecko_sdk
+	url = https://github.com/SiliconLabs/gecko_sdk.git
+[submodule "target/STM32CubeL4"]
+	path = target/STM32CubeL4
+	url = https://github.com/STMicroelectronics/STM32CubeL4.git
+[submodule "target/STM32CubeWL"]
+	path = target/STM32CubeWL
+	url = https://github.com/STMicroelectronics/STM32CubeWL.git
+[submodule "target/esp-idf"]
+	path = target/esp-idf
+	url = https://github.com/espressif/esp-idf.git
+[submodule "bsp/oxit-submod-bsp"]
+	path = bsp/oxit-submod-bsp
+	url = git@github.com:OXIT-LLC/oxit-submod-bsp.git
+[submodule "driver/oxit-submod-hal"]
+	path = driver/oxit-submod-hal
+	url = git@github.com:OXIT-LLC/oxit-submod-hal.git
+[submodule "driver/oxit-submod-queue"]
+	path = driver/oxit-submod-queue
+	url = git@github.com:OXIT-LLC/oxit-submod-queue.git
+[submodule "driver/oxit-submod-cli"]
+	path = driver/oxit-submod-cli
+	url = git@github.com:OXIT-LLC/oxit-submod-cli.git
+[submodule "driver/oxit-submod-lora-basics-modem-swl2001"]
+	path = driver/oxit-submod-lora-basics-modem-swl2001
+	url = git@github.com:OXIT-LLC/oxit-submod-lora-basics-modem-swl2001.git
