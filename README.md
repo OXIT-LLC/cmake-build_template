@@ -17,6 +17,3 @@ header files
 
 ## under `app/src` main
 application main c files
-
-## under `/linker`
-linker file, such as `stm32_flash.ld`
