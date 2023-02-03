@@ -1,18 +1,22 @@
-# ARM GCC + CMAKE Template project
+# CMAKE Template project
 
-You need to do the following:
+## under `/target`
+- EPS-IDF
+- STM32CubeWL
+- STM32CubeL4
+- GeckoSDK
 
-* name your project in CMakeLists.txt
-* change the paths of the ARM tool chain in CMakeLists.txt and arm-bare-metal.cmake
-* change the target boot files (should be part of CMSIS) in CMakeLists.txt
-* copy a linker file for your target CPU into the linker dir and make sure the CMakeLists.txt refers to it.
-* add/remove any defines specific to your target in CMakeLists.txt
+## under `/bsp` borad suppor package
+sensor driver libaraies, some examples inculded
 
-You need to have the following installed:
-* Ninja build tools (in current path)
-* CMake 3 or better.
-* ARM GCC toolchain.
+## under `/driver` 
+submodule drivers wrappers, such as oxit hall, queue & cli
 
-Initialise your project by running 'bootstrap.bat' or 'bootstrap.sh'. This is only needed once.
+## under `/app/inc` inculde
+header files
 
-Compile your project by going to build/debug or build/release and run ninja.
+## under `app/src` main
+application main c files
+
+## under `/linker`
+linker file, such as `stm32_flash.ld`
