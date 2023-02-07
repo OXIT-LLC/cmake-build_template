@@ -10,6 +10,9 @@ set (CMAKE_VERBOSE_MAKEFILE ON)
 SET(ASM_OPTIONS "-x assembler-with-cpp")
 
 ENABLE_LANGUAGE(C CXX ASM)
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_EXTENSIONS OFF)
 
 #
 # !!! uncomment and set CMSIS location here !!!
